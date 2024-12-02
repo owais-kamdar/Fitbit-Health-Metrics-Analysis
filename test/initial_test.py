@@ -25,7 +25,7 @@ class TestInitialPipeline(unittest.TestCase):
         # Sample daily activity data with proper date format
         self.daily_data = pd.DataFrame({
             'Id': [1, 2],
-            'ActivityDate': ['4/12/2016', '4/13/2016'],  # Match your data format
+            'ActivityDate': ['4/12/2016', '4/13/2016'],  # Match data format
             'Total Steps': [10000, 12000],
             'Calories': [2000, 2200]
         })
