@@ -75,8 +75,6 @@ This dataset advances these metrics through:
    from kaggle.api.kaggle_api_extended import KaggleApi
    ```
    - Automated downloads via Kaggle API
-   - Version control integration
-   - Reproducible acquisition process
 
 2. **Processing Pipeline**
    - `initial_pipeline.py`: Cleaning and standardization
