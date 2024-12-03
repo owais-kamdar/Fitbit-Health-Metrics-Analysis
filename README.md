@@ -277,3 +277,8 @@ python src/processing_pipeline.py
 ```bash
 python -m pytest tests/          
 ```
+
+
+
+
+### Parts of this project were developed using the support of AI models
