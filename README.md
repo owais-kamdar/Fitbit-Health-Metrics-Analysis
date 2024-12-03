@@ -21,7 +21,7 @@ Current fitness tracking applications and datasets typically provide basic activ
 Healthcare wearable datasets traditionally lack comprehensive health insights:
 
 1. **Raw Activity Datasets**
-   - **[Fitabase Data](https://www.kaggle.com/arashnic/fitbit)**
+   - **[Fitbit Data](https://www.kaggle.com/arashnic/fitbit)**
      - Basic activity and sleep metrics
      - No clinical interpretation
    - **[MyFitnessPal Database](https://www.kaggle.com/datasets/myfitnesspal)**
@@ -58,8 +58,7 @@ This dataset advances these metrics through:
 
 3. **Temporal Analysis**
    - Rolling 7-day health trends
-   - Weekly pattern recognition
-   - Cumulative load tracking
+   - Weekly pattern calculations
 
 ## Data Collection and Processing
 
@@ -214,13 +213,12 @@ Key relationship effect sizes and achieved power:
 
 ### Research Integrity
 - Clear documentation of methodology and assumptions
-- Acknowledgment of demographic representation limitations
+- Understanding of demographic limitations
    - Sample from specific geographic region
    - Limited age/demographic diversity
    - Short time window (31 days)
-- Transparent discussion of device accuracy constraints
-   - Consumer-grade wearable limitations
-   - Sensor accuracy boundaries
+- Acknowledgement of accuracy constraints
+   - Wearable limitations
    - Data collection gaps
 
 ### Implementation Guidelines
@@ -229,16 +227,10 @@ Key relationship effect sizes and achieved power:
 - Standardized clinical thresholds with proper citations
 - Guidance for appropriate use in research and applications
 
-By maintaining these ethical standards, we provide a valuable research resource while ensuring responsible data usage and interpretation.
 
 
 ## Open Source License
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
-
-## Code Repository
-- **GitHub**: [Health Metrics Analysis](https://github.com/your-repo)
-- **Documentation**: Comprehensive docstrings and unit tests
-- **Dependencies**: Requirements.txt with pinned versions
 
 ### Repository Structure
 ```
